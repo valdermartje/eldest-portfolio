@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is a portfolio site of Valdemar Vreeman, a 17 year old enthousaistic developer from The Netherlands">
+    <meta name="robots" content="index, follow">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    
+    <!-- css -->
+    <link rel="stylesheet" href="style/stylesheet.css">
+    <link rel="stylesheet" href="style/menu.css">
+    <link rel="stylesheet" href="style/vormen.css">
+    <link rel="stylesheet" href="style/footer.css">
+
+    <title>Portfolio Valdemar Vreeman</title>
+</head>
+<body onload="show()">
+    <div class="loading"></div>
+
+    
+    
+    <div class="main">
+        <div class="menu">
+            <div class="container">
+                <div class="center-top">
+                    <div class="logo">
+                        <a href="#home">
+                            <svg class="logo-svg" width="100%" height="100%" viewBox="0 0 442 442" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g filter="url(#filter0_i)">
+                            <rect x="39.3723" y="141" width="303.384" height="48" rx="24" transform="rotate(29.1385 39.3723 141)" fill="#FFCC33"/>
+                            </g>
+                            <g filter="url(#filter1_i)">
+                            <rect x="166.372" y="146" width="282.689" height="48" rx="24" transform="rotate(29.1385 166.372 146)" fill="#FFCC33"/>
+                            </g>
+                            <g filter="url(#filter2_i)">
+                            <rect x="115.372" y="53" width="273.606" height="48" rx="24" transform="rotate(29.1385 115.372 53)" fill="#FFCC33"/>
+                            </g>
+                            <defs>
+                            <filter id="filter0_i" x="16" y="141" width="288.362" height="193.65" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                            <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+                            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                            <feOffset dy="4"/>
+                            <feGaussianBlur stdDeviation="2"/>
+                            <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+                            <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+                            <feBlend mode="normal" in2="shape" result="effect1_innerShadow"/>
+                            </filter>
+                            <filter id="filter1_i" x="143" y="146" width="270.286" height="183.573" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                            <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+                            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                            <feOffset dy="4"/>
+                            <feGaussianBlur stdDeviation="2"/>
+                            <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+                            <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+                            <feBlend mode="normal" in2="shape" result="effect1_innerShadow"/>
+                            </filter>
+                            <filter id="filter2_i" x="92" y="53" width="262.352" height="179.15" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                            <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+                            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                            <feOffset dy="4"/>
+                            <feGaussianBlur stdDeviation="5"/>
+                            <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+                            <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+                            <feBlend mode="normal" in2="shape" result="effect1_innerShadow"/>
+                            </filter>
+                            </defs>
+                            </svg>
+                        </a>
+                    </div>
+                    
+                    <div class="links">
+                        <a href="#home">Home</a>
+                        <a href="#about">About Us</a>
+                        <a href="#projects">Projects</a>
+                        <a href="#contact">Contact Us</a>
+                    </div>
+                    
+                    <div class="menu-mobile" onclick="openMenuMobile()">
+                        <span class="streep"></span>
+                        <span class="streep"></span>
+                        <span class="streep"></span>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="overlay">
+            <div class="links-overlay">
+                <a href="#home">Home</a>
+                <a href="#about">About Us</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact Us</a>
+            </div>
+        </div>
+
+        <div class="vormen">
+            <div class="rondje1"></div>
+            <div class="rondje2"></div>
+            <div class="rondje3"></div>
+            <div class="rondje4"></div>
+        </div>
+
+        <div class="socials center-top">
+            <div class="bar">
+                <a href="https://nl.linkedin.com/in/valdemar-v-0b9233184" class="social linkedin">LinkedIn</a>
+                <a href="#" class="social instagram">Instagram</a>
+                <a href="#" class="social facebook">Facebook</a>
+                <a href="#" class="social mail">Mail</a>
+            </div>
+        </div>
+        
+        <div class="main-container">
+
+            <div class="banner">
+                <div class="container center-top">
+                    <h1 class="header-black bold">Valdemar Vreeman</h1>
+                    <span class="header-black">A young enthusiastic developer from the Netherlands</span>
+                </div>
+                <div class="actor">
+                    <img src="./img/foto.jpg" alt="Photo of actor">
+                </div>
+            </div>
+
+            <div class="section1" id="home">
+                <div class="container">
+                    <div class="card">
+                        <h2>Home</h2>
+                        <p>Dear Mr or Mrs, I'm sorry I just can't do this. I just speak English normally and I'm not really a guy that speaks formal. I prefer to speak informal to you guys.<br><br>
+                        Alright then, this is my site, hopefully you feel yourself comfortable, feel free to look at my site. I'm a 17 year old Developer from The Netherlands and I really like making websites from scratch to the end result. I like to design websites and build them. But I will introduce myself more in the subcard <a href="#about" class="link">About Us</a>.</p>                       
+                    </div>
+                </div>
+            </div>
+            <div class="section2" id="about">
+                <div class="container">
+                    <div class="card">
+                        <h2>About Us</h2>
+                        <p>Alright as I've mentioned before, I'm <a href="https://nl.linkedin.com/in/valdemar-v-0b9233184" class="link">Valdemar Vreeman</a> a 17 years old guy, comes from The Netherlands and I program for about 1.5 years. I've programmed in <i>PHP, Java, Javascript(React, JQuery, VanillaJS), HTML & CSS, SaSS</i>. I follow the Application Developing education, but I've learned myself Webdesign and developed many developing skills.
+                        <br><br> I did a internship for a half year at <a href="https://www.memo-ict.nl" class="link">Memo Ict</a>. I learned there to set priorities and I know how a company functions. I really enjoyed my internship and I'm really love to do challenges and learn new things.</a>
+                            <br><br>If I should summarize myself I would say: <i>I'm a young, enthousiastic guy that loves making websites and making art of it, instead just a website...</i>u 
+                    </p>
+                    </div>
+                </div>
+            </div>
+            <div class="section3" id="projects">
+                <div class="container">
+                    <div class="card">
+                        <h2>Projects</h2>
+                        <p>Below you see some sites I've made the last years. From my very first one to the previous sites:</p>
+                        <ul>
+                            <li>
+                                <a href="https://www.bk-nieuwbuinen.nl" class="link">bk-nieuwbuinen.nl</a>
+                            </li>
+                            <li>
+                                <a href="https://www.memo-ict.nl" class="link">memo-ict.nl</a>
+                            </li>
+                        </ul>
+
+                        <p>If you want to see more projects, I recommend you to send an email and I would send a link of a project. You can send an email at <a href="#contact" class="link">Contact Us</a>.</p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="section4" id="contact">
+                <div class="container">
+                    <div class="card">
+                        <h2>Contact Us</h2>
+                        <div class="flex">
+                            <div class="location float-left">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2409.907442906931!2d7.0810529156449205!3d52.84205282006438!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b7c1da4d18e4cd%3A0x9bd33a574e5a9e40!2sMunnekemoer%20Oost%2072%2C%209561%20NS%20Ter%20Apel!5e0!3m2!1snl!2snl!4v1584218280950!5m2!1snl!2snl" width="100%" height="100%" frameborder="0" style="border:0;"></iframe>                        
+                            </div>
+    
+                            <div class="contact-info float-right">  
+                                <form action="#" method="post">
+                                    <label>Name and surname</label>
+                                    <input type="text" name="name" id="" placeholder="Name and surname">
+                                    <label>Email</label>
+                                    <input type="email" name="mail" id="" placeholder="Email">
+                                    <label>Description</label>
+                                    <input type="text" name="description" id="" placeholder="Description">
+                                    <label>Message</label>
+                                    <textarea name="message" id="" cols="30" rows="10" placeholder="Message"></textarea>
+                                    <input type="submit" value="submit" name="submit">
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="container">
+            <div class="footer-text">
+                &copy;Copyright <script>
+                    var d = new Date();
+                    var n = d.getFullYear();
+                    document.write(n)
+                </script> <a href="https://nl.linkedin.com/in/valdemar-v-0b9233184" class="link">Valdemar Vreeman</a> | No Cookies Used
+            </div>
+        </div>
+    </div>
+
+    <script src="./js//functions.js"></script>
+    
+</body>
+</html>

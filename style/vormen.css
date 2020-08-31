@@ -1,0 +1,53 @@
+
+/* vormen */
+.rondje1,
+.rondje2,
+.rondje3,
+.rondje4 {
+	position: relative;
+	z-index: -1;
+}
+
+.rondje1 {
+	position: fixed;
+	top: 20%;
+	right: 10%;
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	border: 10px solid #ff33cc;
+	transform: translate(-10%, -20%) rotate(64deg);
+}
+
+.rondje2 {
+	position: fixed;
+	top: 10%;
+	left: 10%;
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	border: 20px solid #33ffcc;
+	transform: translate(-10%, -10%) rotate(64deg);
+}
+
+.rondje3 {
+	position: fixed;
+	bottom: -5%;
+	right: -11%;
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	border: 20px solid var(--primary-color);
+	transform: translate(-11%, -5%) rotate(64deg);
+}
+
+.rondje4 {
+	position: fixed;
+	bottom: -20%;
+	left: 10%;
+	width: 300px;
+	height: 300px;
+	border-radius: 50%;
+	border: 30px solid #33ffaa;
+	transform: translate(-20%, -0%) rotate(64deg);
+}

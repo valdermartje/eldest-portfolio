@@ -1,0 +1,15 @@
+
+/* footer */
+
+.footer {
+	background: var(--background-primary);
+	color: var(--color-header);
+	padding: 20px 0;
+	position: relative;
+}
+
+.footer-text {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+}
